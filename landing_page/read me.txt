@@ -1,0 +1,2 @@
+If you have local/online server then use it with .php extention
+and if not then change .php to .html
