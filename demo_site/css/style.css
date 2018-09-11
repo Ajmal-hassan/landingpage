@@ -1,0 +1,230 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	//border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+  // width:100%;
+  background-color: lightgray;
+  color: #24292e;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+#main-container{
+    background-color: #FDF8AB;
+    width: 80%;
+   background-color: #eff3f6;
+   //background-image: linear-gradient(180deg, rgba(255,255,255,0) 60%, #fff),linear-gradient(70deg, #dbedff 32%, #ebfff0);
+   // height: 3000px;
+    margin: auto;
+}
+header>#top-bar{
+    height: 31px;
+    background-color: #424242;
+    color: #fff;
+    
+}
+header > #top-bar>h1{
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+}
+nav {
+    margin-top: 10px;
+   // border: 1px solid #424242;
+    //padding: 4px 0;
+    margin: 10px 20px;
+}
+nav ul li{
+    display: inline-block;
+    width: 150px;
+    background-image: linear-gradient(-180deg, #2fcb53 0%, #269f42 90%);
+}
+nav ul li a:hover{
+    background-image: linear-gradient(-180deg, #2fcb53 0%, #269f42 90%);
+}
+nav ul li a{
+    text-decoration: none;
+    //background-color: #000;
+    display: block;
+    padding: 7px 15px;
+    text-align: center;
+    color: #fff;
+}
+nav ul li:nth-of-type(1){
+    display: inline-block;
+    width: 150px;
+}
+#search_header{
+    width: 100%;
+    height: 70px;
+   // background-color: red;
+}
+#search_header > form {
+    width: 32%; 
+    margin:0 auto;
+}
+#search_header > form > input{
+    width: 396px;
+    height: 41px;
+    border-radius: 40px;
+    border: none;
+    padding-left: 20px;
+    margin-top: 8px;
+}
+.main_body{
+    width: 98%;
+    //height: 1000px;
+    //background-color: lime;
+    margin: 0 auto;
+}
+.main_body:last-child{
+    margin-top: 4px;
+}
+.cat-post {
+    //border: 1px dotted  #eee;
+    width: 515px;
+    height: 110px;
+    //background-color: orange;
+    float: left;
+}
+.cat-post img{
+    
+    width:59px;
+    height: 64px;
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
+   // margin-top:5px;
+    margin-bottom: 5px;
+}
+.cat-post a{
+    color: #838282;
+   line-height: 1em;
+   text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+}
+.cat-post p{
+    font-size: 14px;
+    text-align: left;
+    height: 41px;
+    padding-top: 8px;
+}
+.cat-post:nth-of-type(odd){
+    float: left;
+}
+.cat-post:nth-of-type(even){
+    float: right;
+}
+fieldset{
+  padding: 8px;
+  padding-bottom: 0;
+}
+.adds{
+    width: 98%;
+    height: 100px;
+    //background-color: #000;
+    clear: both;
+    margin: 0 auto;
+}
+.adds>img{
+    vertical-align: central;
+    display: block;
+    margin:auto;
+    width: 100%;
+    height: 100%;
+}
+.subtitle {
+  margin: 0 0 2em 0;
+  font-size: 2.5em;
+  padding: 20px 0;
+  clear: both;
+}
+.fancy {
+  line-height: 0.5;
+  text-align: center;
+  margin-bottom: 0;
+}
+.fancy span {
+  display: inline-block;
+  position: relative;  
+}
+.fancy span:before,
+.fancy span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid white;
+  margin-top: 8px;
+  top: 0;
+  width: 200px;
+}
+.fancy span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.fancy span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+footer {
+    clear: both;
+    height: 220px;
+    width: 98%;
+   background-color: #424242;
+    margin: 0 auto;
+}
+footer ul{
+    padding: 30px;
+    float: left;
+    margin-left: 0px;
+}
+footer ul li {
+    display: block;
+    height: 2em;
+    line-height: 2em;
+    
+}
+footer ul li a{
+    color: #fff;
+  text-decoration: none;
+}
